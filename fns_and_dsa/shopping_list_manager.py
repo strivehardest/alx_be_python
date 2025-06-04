@@ -31,7 +31,7 @@ def main():
 
         elif choice == '3':
             if shopping_list:
-                print("Your shopping list:")
+                print(f"Shopping List Manager")
                 for idx, item in enumerate(shopping_list, start=1):
                     print(f"{idx}. {item}")
             else:
